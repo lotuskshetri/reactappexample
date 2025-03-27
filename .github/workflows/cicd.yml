@@ -35,4 +35,4 @@ jobs:
           key: ${{ secrets.SERVER_KEY }}
           script: |
             sudo docker pull lotuskshetri/reactapp:latest
-            sudo docker compose -f /app/docker-compose.yml up -d
+            sudo docker compose -f /app/reactappexample/docker-compose.yml up -d
