@@ -14,7 +14,7 @@ services:
       retries: 5
 
   nodeapp:
-    image: sharmaarnav/hello-world-app:v5
+    image: lotuskshetri/reactapp:latest
     depends_on:
       mysql:
         condition: service_healthy
